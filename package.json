@@ -1,0 +1,4 @@
+{
+	"private": true,
+	"dependencies": {"rested": "git+ssh://git@github.com:whymarrh/rested.git#development"}
+}
