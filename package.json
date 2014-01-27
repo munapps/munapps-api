@@ -4,5 +4,9 @@
 		"glob": "*",
 		"q": "*",
 		"rested": "git://github.com/whymarrh/rested.git"
+	},
+	"devDependencies": {
+		"grunt": "*",
+		"grunt-contrib-jshint": "*"
 	}
 }
