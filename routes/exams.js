@@ -1,13 +1,18 @@
 "use strict";
 
-var q = require("q");
+var MUN = require("MUN");
 
-var route = module.exports = {};
-
-route.path = "/exams";
-route.handlers = {
-	"get": function get(request, response) {
-		response.write("GET exams\n");
-		return q(true);
+module.exports = {
+	"path": "/exam",
+	"handlers": {
+		"get": function get(request, response) {
+			var a = request.authentication;
+			return MUN.selfService.finalExamSchedule(a.username, a.password)
+			.then(function (result) {
+				var stdout = result[0];
+				response.write(stdout);
+				return true;
+			});
+		}
 	}
 };
