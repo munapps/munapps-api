@@ -8,10 +8,4 @@ I present to you a programmatic way to access various [Memorial University](http
 What services are we talking about?
 -----------------------------------
 
-Planned:
-
-- [Campus news and events](http://today.mun.ca/)
-- [Desire2Learn](https://online.mun.ca)
-- [Memorial Self-Service](https://www5.mun.ca/admit/twbkwbis.P_WWWLogin)
-- [Memorial University Campus Card](https://brunnr.aits.mun.ca)
-- [Webtools](https://webtools.cs.mun.ca)
+See this list of services supported by `node-mun`, the module behind this API.
