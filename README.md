@@ -3,7 +3,7 @@
 Memorial University API
 =======================
 
-I present to you a programmatic way to access various [Memorial University](http://www.mun.ca) web offerings. Ontop of this API we can build apps that aren't awful.
+I present to you a programmatic way to access various [Memorial University](http://www.mun.ca) web offerings. On top of this API we can build apps that aren't awful.
 
 What services are we talking about?
 -----------------------------------
