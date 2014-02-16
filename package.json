@@ -2,8 +2,7 @@
 	"private": true,
 	"dependencies": {
 		"glob": "*",
-		"q": "*",
-		"rested": "git://github.com/whymarrh/rested.git"
+		"q": "*"
 	},
 	"devDependencies": {
 		"grunt": "*",
