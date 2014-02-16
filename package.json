@@ -2,10 +2,8 @@
 	"private": true,
 	"dependencies": {
 		"glob": "*",
-		"q": "*"
-	},
-	"devDependencies": {
 		"grunt": "*",
-		"grunt-contrib-jshint": "*"
+		"grunt-contrib-jshint": "*",
+		"q": "*"
 	}
 }
