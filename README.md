@@ -8,4 +8,4 @@ I present to you a programmatic way to access various [Memorial University](http
 What services are we talking about?
 -----------------------------------
 
-See this list of services supported by `node-mun`, the module behind this API.
+[See this list of services supported by `node-mun`, the module behind this API.](https://github.com/whymarrh/node-mun/issues/5)
