@@ -2,17 +2,22 @@
 
 var MUN = require("MUN");
 
+var json = {
+	1: {
+		"get":
+			function get(request, response) {
+				return request.authentication()
+				.then(MUN.selfService.academicRecord)
+				.then(function (result) {
+					var stdout = result[0];
+					response.write(stdout);
+					return true;
+				});
+			}
+	}
+};
+
 module.exports = {
 	"path": "/academic-record",
-	"handlers": {
-		"get": function get(request, response) {
-			var a = request.authentication;
-			return MUN.selfService.academicRecord(a.username, a.password)
-			.then(function (result) {
-				var stdout = result[0];
-				response.write(stdout);
-				return true;
-			});
-		}
-	}
+	"media": { "application/json": json }
 };

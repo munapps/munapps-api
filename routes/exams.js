@@ -2,17 +2,22 @@
 
 var MUN = require("MUN");
 
-module.exports = {
-	"path": "/exam",
-	"handlers": {
-		"get": function get(request, response) {
-			var a = request.authentication;
-			return MUN.selfService.finalExamSchedule(a.username, a.password)
-			.then(function (result) {
-				var stdout = result[0];
-				response.write(stdout);
-				return true;
-			});
-		}
+var json = {
+	1: {
+		"get":
+			function get(request, response) {
+				return request.authentication()
+				.then(MUN.selfService.finalExamSchedule)
+				.then(function (result) {
+					var stdout = result[0];
+					response.write(stdout);
+					return true;
+				});
+			}
 	}
+};
+
+module.exports = {
+	"path": "/exams",
+	"media": { "application/json": json }
 };
