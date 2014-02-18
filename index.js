@@ -18,6 +18,12 @@ var server = rested.createServer({
 	"routes": routes
 });
 
+server.eachRequest(function (request, response) {
+	response.setHeader("X-Powered-By", "Coffee");
+	response.setHeader("X-Shenanigans", "none");
+	response.setHeader("X-GitHub", "http://git.io/3K55mA");
+});
+
 server.listen(port, function () {
 	console.log("Server listening on port " + port);
 });
