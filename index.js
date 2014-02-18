@@ -12,8 +12,8 @@ var routes = glob.sync("routes/*.js").map(function (e, i, a) {
 });
 
 var server = rested.createServer({
-	"crt": file(path.join(__dirname, "keys/api.munapps.ca.crt")),
-	"key": file(path.join(__dirname, "keys/api.munapps.ca.key")),
+	"crt": file(path.join(__dirname, "files/api.munapps.ca.crt")),
+	"key": file(path.join(__dirname, "files/api.munapps.ca.key")),
 	"secure": true,
 	"routes": routes
 });
