@@ -4,6 +4,7 @@
 		"glob": "*",
 		"grunt": "*",
 		"grunt-contrib-jshint": "*",
-		"q": "*"
+		"q": "*",
+		"rested": "whymarrh/rested"
 	}
 }
