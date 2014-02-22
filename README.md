@@ -9,3 +9,8 @@ What services are we talking about?
 -----------------------------------
 
 [See this list of services supported by `node-mun`, the module behind this API.](https://github.com/whymarrh/node-mun/issues/5)
+
+License
+-------
+
+This software is licensed under the 3-Clause BSD License. See [LICENSE.md](LICENSE.md) for more information.
