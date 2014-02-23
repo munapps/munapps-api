@@ -16,7 +16,7 @@ It means that you can build cool things.
 
 ### What does this mean for students?
 
-Better apps and services from people who understand the frustrations of using what MUN offers. You know that "feedback" section of the god-awful my.mun.ca Portal-thingy? Now there is a way to actually have those things implemented.
+Better apps and services from people who understand the frustrations of using what MUN offers. You know that "feedback" section of the god-awful my.mun.ca Portal-thingy? Now there is a way to actually have those suggestions implemented.
 
 What services are we talking about?
 -----------------------------------
