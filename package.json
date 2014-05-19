@@ -5,6 +5,6 @@
 		"grunt": "*",
 		"grunt-contrib-jshint": "*",
 		"q": "*",
-		"rested": "whymarrh/rested"
+		"rested": "git://github.com/whymarrh/rested.git#v0.1.7"
 	}
 }
